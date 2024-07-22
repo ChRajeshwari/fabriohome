@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FABRIO - SHOP DETAILS</title>
+    <link rel="stylesheet" href="./shopd.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="list">
+            <ul type="none" class="ul1">
+                <li><a href="#">HOME</a></li>
+            <li class="drop-down"><a href="#">PAGE<b><ion-icon name="caret-down-outline"></ion-icon></b></a>
+            <div class="nav-links">
+                <ul class="nav">
+                    <li><a href="fabrioabout.html" target="_blank">ABOUT US</a></li>
+                    <li><a href="shopd.html">SHOP DETAILS</a></li>
+                    <li><a href="shopcat.html">SHOP CATEGORY</a></li>
+                    <li><a href="fabrioblog.html">BLOG</a></li>
+                    <li><a href="blogcategory.html">BLOG CATEGORY</a></li>
+                    <li><a href="blogsingle.html">BLOG SINGLE</a></li>
+                    <li><a href="404.html">404</a></li>
+                </ul>
+            </div>
+         </li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">CONTACT</a></li>
+          
+          
+            </ul>
+        </div>
+        <div class="logo">
+            <img class="logo1" src="./shopd/img1-removebg-preview.png"/>
+        </div>
+        <div class="list">
+            <ul type="none" class="ul1">
+            <li><a href="#">ACCOUNT</a></li>
+            <li><a href="#">CART 0</a></li>
+          
+            </ul>
+        </div>
+   
+        </div>
+
+        <h1 class="h1">SHOP DETAILS</h1>
+        <img class="img1" src="./shopd/img1.jpg"/>
+
+
+        <div class="shp-container1">
+            <div class="con1-s1">
+                <img class="con1-img1" src="./shopd/img2.webp"/>
+                <div class="con1">
+                <div class="con1-img2">
+                    <img class="con1-im1" src="./shopd/img3.jpg">
+                </div>
+                <div class="con1-img3">
+                    <img class="con1-im2" src="./shopd/img4.webp"/>
+                </div>
+                </div>
+            </div>
+            <div class="con1-s2">
+                 <h1 class="con1-h1">SHIRTS</h1>
+                 <p class="con1-p1">$56.00 USD <span>  $60.00 USD</span></p>
+                 <p class="con1-p2">utton-up tops with collars and long or short sleeves. They can be made of cotton, silk, or other materials and are available in different styles such as dress shirts, casual shirts, and flannel shirts</p>
+                 <div class="con1-input">
+                   Quantity
+                 <input class="input2" type="number" name="num" placeholder=" 1">
+                 <button class="bt">ADD TO CARD</button>
+                 </div>
+                 <button class="bt1">Info</button>
+                 <button class="bt2">Description</button>
+                 <ul class="ul2">
+                    <li class="li1">Before shopping, measure your bust, waist, hips, and inseam.</li>
+                 <li>Consider the current season and weather when shopping.</li>
+                 <li>Understand the return policy of the store, especially when buying online.</li>
+                 <li>Make a list of your favorite brands or stores to visit first.</li>
+                 <li>Opt for clothes that can be easily mixed and matched with other items</li>
+                </ul>
+                </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="about-container2">
+            <div class="con2-s1">
+                <h1 class="con2-h1">NEWSLATTER</h1>
+            </div>
+            <div class="con2-s2">
+                <ion-icon name="search-outline" class="on"></ion-icon>
+                <input class="input1" type="text" name="name" placeholder="Enter email here" required> 
+               <h4 class="stat"></h4>
+            </div>
+        </div>
+    
+    
+        <div class="container13">
+            <div class="footer1">
+                <h1 class="con13-h1">Pages</h1>
+                <p class="f1">ABOUT</p>
+                <p class="f1">STYLE GUIDE</p>
+                <p class="f1">LICENSES</p>
+                <p class="f1">CHANGELOG</p>
+                <p class="f1">CONTACT</p>
+            </div>
+            <div class="footer2">
+                <h1 class="con13-h1">FABRIO</h1>
+                <p class="f1">Powered by Webflow created by PeacefulQode.</p>
+            </div>
+            <div class="footer3">
+                <h1 class="con13-h1">Pages</h1>
+                <p class="f1">FACEBOOK</p>
+                <p class="f1">INSTAGRAM</p>
+                <p class="f1">YOUTUBE</p>
+                <p class="f1">LINKEDIN</p>
+                <p class="f1">TWITTER</p>
+            </div>
+          </div>
+    <script>
+        
+       ScrollReveal({ 
+        reset: true,
+        distance:"200px",
+        duration:1200,
+        delay:10
+    });
+    ScrollReveal().reveal('.footer1,.con2-h1', { delay: 10,origin:"left"});
+    ScrollReveal().reveal('.footer3,.con1-s2', { delay: 10,origin:"right"});
+    ScrollReveal().reveal('.input1,h1', { delay: 10,origin:"top"});
+    ScrollReveal().reveal('.footer2', { delay: 10,origin:"bottom"});
+
+    </script>
+</body>
+</html>

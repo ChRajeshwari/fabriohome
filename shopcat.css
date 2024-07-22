@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgb(211, 206, 206);
+    height:100px;
+    background-color: white;
+    width:100%;
+    position: fixed;
+    top:0;
+}
+ul{
+    display:flex;
+    gap:60px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+li{
+   font-size: 20px;  
+}
+.logo1{
+    height:200px;
+    margin-top: -40px;
+    width:120%;
+}
+
+.h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+}
+.img1{
+    height:80vh;
+    width:100%;
+}
+.ul{
+    margin-left: 500px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.shopcat-container1{
+    display:flex;
+    gap:80px;
+    flex-wrap: wrap;
+    width:100%;
+    margin-left: 100px;
+}
+.img1{
+    height:50vh;
+    width:100%;
+}
+.con1-h1{
+    text-align: center;
+    font-size:24px;
+}
+.con1-p1{
+    text-align: center;
+    font-size:18px;
+}
+.shopcat-bt{
+  background-color: white;
+border: 0;
+height:8vh;
+width:40%;
+  padding:10px;
+  position: relative;
+  bottom:200px;
+  left:100px;
+  opacity: 0;
+    
+}
+
+.con1-img1:hover .shopcat-bt{
+    opacity:1;
+    transition: 0.5s ease;
+}
+.shopcat-bt:hover{
+   background-color: black;
+   color:white;
+}
+.active{
+    text-decoration: underline;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    line-height:2;
+    list-style-type: none;
+    display: none;
+    
+}
+
+.drop-down:hover .nav{
+    display: block;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding:10px;
+}
+
+
+
+
+
+
+
+.about-container2{
+    display:flex;
+  justify-content: space-around;
+    background-color: black;
+    color:white;
+    margin-top: 100px;
+  padding:30px;
+  }
+  .con2-h1{
+    font-size: 40px;
+    font-weight: 600;
+ margin-left: -200px;
+  }
+  input{
+    height:8vh;
+    width:240%;
+ margin-left: -50px;
+ font-size: 20px;
+ background-color: transparent;
+ border: 0.1px solid white;
+  }
+  .on{
+    font-size: 24px;
+    position: relative;
+    top:45px;
+    left:460px;
+  }
+ 
+  .container13{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .footer1{
+    font-family:"Roboto";
+    font-weight: 500;
+    line-height: 35px;
+  }
+  .footer2{
+    font-family:"Roboto";
+    text-align: center;
+    margin-left: 30px;
+  }
+  .footer3{
+    margin-right: 100px;
+    font-family:"Roboto";
+  }
+  .con13-h1{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .f1{
+    font-size: 18px;
+  }
+
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="blogcategory.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <section class="nav-container">
+      <div class="navbar">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li class="drop-down">
+            <a href="#"
+              >PAGE <b><i class="fa-solid fa-chevron-down"></i></b
+            ></a>
+            <div class="nav-links">
+              <ul>
+                <li><a href="fabrioabout.html">ABOUT US</a></li>
+                <li><a href="shopd.html">SHOP DETAILS</a></li>
+                <li><a href="shopcat.html">SHOP CATEGORY</a></li>
+                <li><a href="fabrioblog.html">BLOG</a></li>
+                <li><a href="blogcategory.html">BLOG CATEGORY</a></li>
+                <li><a href="blogsingle.html">BLOG SINGLE</a></li>
+                <li><a href="404.html">404</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <img src="blogcategory/logo.svg" alt="" />
+        <ul>
+          <li><a href="#">ACCOUNT</a></li>
+          <li><a href="#">CART 0</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="bigimage-container">
+      <div style="text-align: center" class="text">
+        <h1 style="font-size: 94px">BLOG CATEGORY</h1>
+      </div>
+      <div class="img"></div>
+    </section>
+    <section class="box-container">
+      <h1>
+        TRENDING CLOTHES <a href="#">SUMMER COLLECTIONS</a> WINTER COLLECTIONS
+      </h1>
+      <div class="boxes">
+        <div class="box">
+          <img src="blogcategory/1b.jpg" alt="" />
+          <span>SUMMER COLLECTIONS</span>
+          <strong>STYLED STORIES:A FATION ODYSSEY BEGINS</strong>
+          <span>JULY 22,2023,0 COMMENTS</span>
+        </div>
+        <div class="box">
+          <img src="blogcategory/1b.jpg" alt="" />
+          <span>SUMMER COLLECTIONS</span>
+          <strong>STYLED STORIES:A FATION ODYSSEY BEGINS</strong>
+          <span>JULY 22,2023,0 COMMENTS</span>
+        </div>
+        <div class="box">
+          <img src="blogcategory/1b.jpg" alt="" />
+          <span>SUMMER COLLECTIONS</span>
+          <strong>STYLED STORIES:A FATION ODYSSEY BEGINS</strong>
+          <span>JULY 22,2023,0 COMMENTS</span>
+        </div>
+        <div class="box">
+          <img src="blogcategory/1b.jpg" alt="" />
+          <span>SUMMER COLLECTIONS</span>
+          <strong>STYLED STORIES:A FATION ODYSSEY BEGINS</strong>
+          <span>JULY 22,2023,0 COMMENTS</span>
+        </div>
+        <div class="box">
+          <img src="blogcategory/1b.jpg" alt="" />
+          <span>SUMMER COLLECTIONS</span>
+          <strong>STYLED STORIES:A FATION ODYSSEY BEGINS</strong>
+          <span>JULY 22,2023,0 COMMENTS</span>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter-container">
+      <div class="newsletter">
+        <div class="news">
+          <h1 style="font-size: 64px">NEWSLATTER</h1>
+        </div>
+        <div class="mail">
+          <input type="email" placeholder="Enter email here" />
+          <i class="fa-regular fa-paper-plane"></i>
+        </div>
+      </div>
+    </section>
+    <section class="footer-container">
+      <div class="footer">
+        <ul>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">STYLE GUIDE</a></li>
+          <li><a href="#">LICENSES</a></li>
+          <li><a href="#">CHANGELOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <ul class="power-img">
+          <img src="blogcategory/logo.svg" alt="" width="120px" />
+          <div class="power-text">
+            <li>Powered by <a href="#">Webflow</a></li>
+            <li>created by <a href="#">PeacefulQode</a></li>
+          </div>
+        </ul>
+        <ul>
+          <li><a href="#">FACEBOOK</a></li>
+          <li><a href="#">INSTAGRAM</a></li>
+          <li><a href="#">YOUTUBE</a></li>
+          <li><a href="#">LINKEDIN</a></li>
+          <li><a href="#">TWITTER</a></li>
+        </ul>
+      </div>
+    </section>
+    <script>
+      ScrollReveal({
+        // reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+      ScrollReveal().reveal(".text h1", { delay: 200, origin: "bottom" });
+      ScrollReveal().reveal(".boxes .box", { delay: 100, origin: "bottom" });
+      ScrollReveal().reveal(".box-container h1", {
+        delay: 100,
+        origin: "bottom",
+      });
+      ScrollReveal().reveal(".news h1", { delay: 200, origin: "left" });
+      ScrollReveal().reveal(".mail", { delay: 200, origin: "right" });
+      ScrollReveal().reveal(".footer ul", { delay: 200, origin: "left" });
+      ScrollReveal().reveal(".power-img", { delay: 200, origin: "top" });
+      ScrollReveal().reveal("#icons", { delay: 200, origin: "right" });
+    </script>
+  </body>
+</html>
